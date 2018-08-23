@@ -1,1 +1,4 @@
 http://websystique.com/spring-security/secure-spring-rest-api-using-oauth2/
+
+POST http://localhost:8080/oauth/token?grant_type=password&username=bill&password=abc123
+GET http://localhost:8080/user/?access_token=3525d0e4-d881-49e7-9f91-bcfd18259109
